@@ -21,7 +21,7 @@ public class testAop {
 
     @Test
     public void testDemo(){
-        // 测试
+        // 测试demo
         Target target =(Target) ac.getBean("target");
         String result = target.play("ls");
         System.out.println("result:"+result);
